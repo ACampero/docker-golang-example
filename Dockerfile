@@ -14,6 +14,7 @@ FROM golang:1.8.3
 # base image is built on a debian image.
 RUN apt-get update -qq \
     && apt-get install -yq cmake \
+                           golang\
                            fceux \
                            gcc \
                            libboost-all-dev \
